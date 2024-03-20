@@ -69,17 +69,7 @@ def is_dark_color(color):
 
 def update_ui():
     st.markdown("""
-    <style>
-    #MainMenu {visibility: hidden}
-    #header {visibility: hidden}
-    #footer {visibility: hidden}
-    .block-container {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        }
-        
+    <style>        
     .stApp a:first-child {
         display: none;
     }
@@ -100,17 +90,7 @@ def update_ui():
         """, unsafe_allow_html=True)
 
 st.markdown("""
-    <style>
-    #MainMenu {visibility: hidden}
-    #header {visibility: hidden}
-    #footer {visibility: hidden}
-    .block-container {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        }
-        
+    <style>        
     .stApp a:first-child {
         display: none;
     }
